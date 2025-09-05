@@ -1,0 +1,132 @@
+/* Font families */
+:root {
+    --font-primary: 'Averta Std CY', sans-serif;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-BlackItalic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Extrabold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-ExtraboldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCy-Extrathin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCy-ExtrathinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Thin.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-ThinItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Semibold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-SemiboldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Averta Std CY';
+    src: url('../fonts/Intelligent Design - AvertaStdCY-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}

@@ -1,0 +1,106 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-primary);
+}
+
+/* Variables */
+:root {
+    --primary-color: #141ED2;
+    --secondary-color: #5F6368;
+    --background-color: #FFFFFF;
+    --white-color: #FFFFFF;
+    --border-color: #E3E3E3;
+    --error-color: #D93025;
+    --success-color: #0F9D58;
+    --warning-color: #F4B400;
+    --info-color: #4285F4;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --hover-primary: #0F18C2;
+    --text-color: #2E2E2E;
+    --placeholder-color: #BEBEBE;
+    --alt-button-bg: #EAEAEA;
+    --alt-button-border: #BEBEBE;
+}
+
+/* Base Styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+    background-color: var(--background-color);
+    display: flex;
+    overflow-x: hidden;
+}
+
+/* Common Elements */
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Alerts */
+.alert {
+    position: relative;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.alert .fa {
+    margin-right: 8px;
+}
+
+.alert-error {
+    background-color: #FEEFEF;
+    color: var(--error-color);
+    border-left: 4px solid var(--error-color);
+}
+
+.alert-success {
+    background-color: #E7F8EF;
+    color: var(--success-color);
+    border-left: 4px solid var(--success-color);
+}
+
+.alert-warning {
+    background-color: #FEF7E7;
+    color: var(--warning-color);
+    border-left: 4px solid var(--warning-color);
+}
+
+.alert-info {
+    background-color: #E9F1FE;
+    color: var(--info-color);
+    border-left: 4px solid var(--info-color);
+} 
